@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [NS Web Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="NirogStreet(failed)">
+    <classes>
+      <class name="com.example.TestRunner.TestngTestRunnerTest">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="runScenario" invocation-numbers="0"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- com.example.TestRunner.TestngTestRunnerTest -->
+    </classes>
+  </test> <!-- NirogStreet(failed) -->
+</suite> <!-- Failed suite [NS Web Suite] -->

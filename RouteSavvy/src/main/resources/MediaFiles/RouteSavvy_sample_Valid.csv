@@ -1,0 +1,11 @@
+Name,Address1,Address2,City,State,Zip,Note,Note2,Note3,Note4,Note5,Stop Time Minutes,Stop Units
+Customer A,12023 East Arapahoe Road,Unit 140,Centennial,CO,801123815,1 of 5 available optional Notes fields,1 of 5 available optional Notes fields,1 of 5 available optional Notes fields,1 of 5 available optional Notes fields,1 of 5 available optional Notes fields,10,1
+Customer B,8673 S Quebec,,Highlands Ranch,CO,80126,Use for any text data desired,Use for any text data desired,Use for any text data desired,Use for any text data desired,Use for any text data desired,10,1
+Customer C,1950 E County Line Rd,,Highlands Ranch,CO ,801262437,Examples below,Examples below,Examples below,Examples below,Note5 designated placeholder for email address,10,1
+Customer D,10001 Commons St,,Lone Tree,CO,801245547,Customer ID#,Contact Name,Contact Phone#,Special Instruction,if using integration with mobile app,15,1
+Customer E,9222 Park Meadows Drive,,Lone Tree,CO,801246711,123abc,Bob,(123) 456-7890,Garage,automated stop notifications,15,1
+Customer F,15795 East Arapahoe Road,,Centennial,CO,80016,234bcd,Frank,(123) 456-7890,Back porch,Examples below,10,1
+Customer G,8000 E Belleview,Suite B20,Greenwood Village,CO,80111,345cde,Debbie,(123) 456-7890,Front door,email@address.com,20,1
+Customer H,9854 Meridian Drive,Suite C,Englewood,CO,80112,456def,Sue,(123) 456-7890,,email@address.com,15,1
+Customer I,17051 Lincoln Ave,,Parker,CO,801343147,567efg,Joe,(123) 456-7890,Call first,email@address.com,15,1
+Customer J,9854 Zenith Meridian Drive,Suite D,Englewood,CO,80112,678fgh,John,(123) 456-7890,,email@address.com,15,1

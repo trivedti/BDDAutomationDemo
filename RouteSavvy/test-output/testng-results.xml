@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-11-23T10:25:35 IST" name="Default suite" finished-at="2023-11-23T10:27:07 IST" duration-ms="91525">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.example.TestRunner.TestngTestRunnerTest@65987993]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2023-11-23T10:25:35 IST" name="Default test" finished-at="2023-11-23T10:27:07 IST" duration-ms="91525">
+      <class name="com.example.TestRunner.TestngTestRunnerTest">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.example.TestRunner.TestngTestRunnerTest@65987993]" started-at="2023-11-23T10:25:35 IST" name="setUpClass" finished-at="2023-11-23T10:25:36 IST" duration-ms="859" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@6604f246]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.example.TestRunner.TestngTestRunnerTest@65987993]" started-at="2023-11-23T10:25:36 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-11-23T10:25:54 IST" duration-ms="17471" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify login functionality with Valid Token"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Verify login functionality with valid and invalid Token]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.example.TestRunner.TestngTestRunnerTest@65987993]" started-at="2023-11-23T10:25:54 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-11-23T10:26:02 IST" duration-ms="8853" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify login functionality with InValid Token"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Verify login functionality with valid and invalid Token]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.example.TestRunner.TestngTestRunnerTest@65987993]" started-at="2023-11-23T10:26:02 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-11-23T10:26:40 IST" duration-ms="37657" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify user is successfully upload location file"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Verify route optimization functionality when user upload  valid file]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.example.TestRunner.TestngTestRunnerTest@65987993]" started-at="2023-11-23T10:26:40 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-11-23T10:27:06 IST" duration-ms="26115" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify user is successfully upload location file"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Verify route optimization functionality when user upload invalid location file]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.example.TestRunner.TestngTestRunnerTest@65987993]" started-at="2023-11-23T10:27:06 IST" name="tearDownClass" finished-at="2023-11-23T10:27:07 IST" duration-ms="513" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.example.TestRunner.TestngTestRunnerTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

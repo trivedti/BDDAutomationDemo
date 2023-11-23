@@ -1,0 +1,109 @@
+<html>
+<head>
+<title>TestNG:  NirogStreet</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>NirogStreet</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Jul 18 14:04:39 IST 2023</td>
+</tr>
+<tr><td>Total time:</td><td>61 seconds (61824 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.example.TestRunner.TestngTestRunnerTest.runScenario()'><b>runScenario</b><br>Test class: com.example.TestRunner.TestngTestRunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify supervisor login functionality", "Optional[Verify Supervisor login funtionality with Username and Password]"</td>
+<td><div><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.cssSelector: body.ng-tns-0-0.page-loaded.header-fixed.header-mobile-fixed.subheader-enabled.subheader-fixed.aside-enabled.aside-fixed.aside-minimize-hoverable.brand-dark:nth-child(2) kt-base.ng-star-inserted:nth-child(3) div.d-flex.flex-column.flex-root.ng-star-inserted div.d-flex.flex-row.flex-column-fluid.page:nth-child(1) div.d-flex.flex-column.flex-row-fluid.wrapper div.content.d-flex.flex-column.flex-column-fluid:nth-child(2) div.d-flex.flex-column-fluid.custom-class div.pl-0.container mydashboard-entry.ng-star-inserted:nth-child(2) div.kt_body div.row:nth-child(2) div.col-md-7.timeline-card div.card.card-custom.gutter-b.pr-0.ml-1 div.card-body div.tab-content.mt-5.ml-3 div.tab-panel.fade.show.active div.row div.col-xl-12.timelinelist1 div.example-right-align &gt; button.btn.btn-primary.mat-focus-indicator.mat-raised-button.mat-button-base.ng-star-inserted (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.8.3&apos;, revision: &apos;e5e76298c3&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.18&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\vadalima\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:64925}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64925/devtoo..., se:cdpVersion: 114.0.5735.199, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f40f1547f8ee6c09ff1d4551389f07e5
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:87)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+	at com.example.Utilities.GenericUtils.verifyVisibility(GenericUtils.java:1355)
+	at com.example.PageObjects.SupervisorAccomplishment.clickOnAddaccomplishmentButton(SupervisorAccomplishment.java:80)
+	at com.example.StepDefinitions.SupervisorAccomplishmentSteps.User_clicks_on_Add_Accomplishment(SupervisorAccomplishmentSteps.java:55)
+	at ✽.User clicks on Add Accomplishment(classpath:feature/Supervisioraccomplishment.feature:8)
+</pre></div><a href='#' onClick='toggleBox("stack-trace305242558", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace305242558'><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.cssSelector: body.ng-tns-0-0.page-loaded.header-fixed.header-mobile-fixed.subheader-enabled.subheader-fixed.aside-enabled.aside-fixed.aside-minimize-hoverable.brand-dark:nth-child(2) kt-base.ng-star-inserted:nth-child(3) div.d-flex.flex-column.flex-root.ng-star-inserted div.d-flex.flex-row.flex-column-fluid.page:nth-child(1) div.d-flex.flex-column.flex-row-fluid.wrapper div.content.d-flex.flex-column.flex-column-fluid:nth-child(2) div.d-flex.flex-column-fluid.custom-class div.pl-0.container mydashboard-entry.ng-star-inserted:nth-child(2) div.kt_body div.row:nth-child(2) div.col-md-7.timeline-card div.card.card-custom.gutter-b.pr-0.ml-1 div.card-body div.tab-content.mt-5.ml-3 div.tab-panel.fade.show.active div.row div.col-xl-12.timelinelist1 div.example-right-align &gt; button.btn.btn-primary.mat-focus-indicator.mat-raised-button.mat-button-base.ng-star-inserted (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.8.3&apos;, revision: &apos;e5e76298c3&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.18&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\vadalima\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:64925}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64925/devtoo..., se:cdpVersion: 114.0.5735.199, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f40f1547f8ee6c09ff1d4551389f07e5
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:87)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+	at com.example.Utilities.GenericUtils.verifyVisibility(GenericUtils.java:1355)
+	at com.example.PageObjects.SupervisorAccomplishment.clickOnAddaccomplishmentButton(SupervisorAccomplishment.java:80)
+	at com.example.StepDefinitions.SupervisorAccomplishmentSteps.User_clicks_on_Add_Accomplishment(SupervisorAccomplishmentSteps.java:55)
+	at ✽.User clicks on Add Accomplishment(classpath:feature/Supervisioraccomplishment.feature:8)
+</pre></div></td>
+<td>60</td>
+<td>com.example.TestRunner.TestngTestRunnerTest@10d68fcd</td></tr>
+</table><p>
+</body>
+</html>

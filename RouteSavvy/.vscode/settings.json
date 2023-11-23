@@ -1,0 +1,11 @@
+{
+    "java.configuration.updateBuildConfiguration": "disabled",
+    "java.completion.filteredTypes": [
+        "com.sun.*",
+        "sun.*",
+        "jdk.*",
+        "org.graalvm.*",
+        "io.micrometer.shaded.*"
+    ],
+    "java.compile.nullAnalysis.mode": "automatic"
+}
